@@ -1,0 +1,18 @@
+-- 7 Billion Humans (2235) --
+-- 7: 整理房间 --
+
+step s
+step s
+step s
+if w == datacube:
+	step s
+	pickup s
+else:
+	pickup n,c,s
+	step s
+endif
+step s
+step s
+drop
+
+

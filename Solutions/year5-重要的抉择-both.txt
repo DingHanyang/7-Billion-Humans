@@ -1,0 +1,13 @@
+-- 7 Billion Humans (2235) --
+-- 5 重要的抉择 --
+
+if w == datacube
+	a
+	step w
+	jump a
+endif
+b
+step e
+jump b
+
+
