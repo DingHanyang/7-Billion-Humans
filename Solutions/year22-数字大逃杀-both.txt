@@ -1,0 +1,15 @@
+-- 7 Billion Humans (2235) --
+-- 22: 数字大逃杀 --
+
+pickup s
+a:
+if w > myitem or
+ e > myitem:
+	b:
+	step s
+	jump b
+endif
+step e
+jump a
+
+

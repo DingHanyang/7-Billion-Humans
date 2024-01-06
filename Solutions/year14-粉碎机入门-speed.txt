@@ -1,0 +1,11 @@
+-- 7 Billion Humans (2235) --
+-- 14: 粉碎机入门 --
+
+if s == datacube:
+	pickup s
+	step s
+	step s
+	giveto s
+endif
+
+

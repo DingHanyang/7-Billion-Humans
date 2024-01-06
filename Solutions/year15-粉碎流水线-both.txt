@@ -1,0 +1,19 @@
+-- 7 Billion Humans (2235) --
+-- 15: 粉碎流水线 --
+
+a:
+b:
+step n
+if n == datacube:
+	pickup n
+	c:
+	step s
+	if s == shredder:
+		giveto s
+		jump a
+	endif
+	jump c
+endif
+jump b
+
+

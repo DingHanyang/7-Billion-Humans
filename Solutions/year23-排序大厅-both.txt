@@ -1,0 +1,14 @@
+-- 7 Billion Humans (2235) --
+-- 23: 排序大厅 --
+
+pickup s
+a:
+if w > myitem:
+	step w
+endif
+if e < myitem:
+	step e
+endif
+jump a
+
+

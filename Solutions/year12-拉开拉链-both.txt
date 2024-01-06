@@ -1,0 +1,18 @@
+-- 7 Billion Humans (2235) --
+-- 12: 拉开拉链 --
+
+pickup c
+a:
+if w != worker:
+	step n
+	drop
+endif
+if w != worker and
+ e == worker or
+ e == wall:
+	step s
+	drop
+endif
+jump a
+
+
